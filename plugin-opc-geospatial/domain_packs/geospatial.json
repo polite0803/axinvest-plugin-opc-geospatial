@@ -1,0 +1,20 @@
+{
+  "id": "geospatial",
+  "pluginId": "plugin-opc-geospatial",
+  "transportOwner": "plugin-opc-common",
+  "page": {
+    "id": "domain:data-geospatial",
+    "path": "/opc/domain/geospatial"
+  },
+  "capabilities": [
+    "tool:OpcSearchWiki",
+    "tool:WebSearch",
+    "tool:OpcCreateContentAsset",
+    "tool:OpcCreateProject",
+    "tool:FileWrite"
+  ],
+  "commands": [],
+  "calls": [
+    "opc.store"
+  ]
+}
